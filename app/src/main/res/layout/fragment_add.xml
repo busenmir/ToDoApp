@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0C0F3"
+    tools:context=".fragment.AddFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#EFBABA"
+            android:backgroundTint="#A38CEA"
+            android:hint="@string/not_baslik"
+            android:minHeight="48dp"
+            android:textColorHint="#1A237E" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editAge"
+            android:textAlignment="viewStart"
+            android:background="#EFBABA"
+            android:backgroundTint="#A38CEA"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="@string/notunuz"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/buttonEkle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B21565C0"
+            android:minHeight="48dp"
+            android:text="@string/ekle"
+            android:textColor="#1A237E"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+</FrameLayout>

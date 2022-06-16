@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ToDoApp1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item">Item</string>
+    <string name="string_item" />
+    <string name="todo">TODO</string>
+    <string name="sminizi_giriniz">İsminizi Giriniz</string>
+    <string name="yas">Yaşınızı Giriniz</string>
+    <string name="ekle">EKle</string>
+    <string name="g_ncelle">Güncelle</string>
+    <string name="not_baslik">Not Başlığı</string>
+    <string name="notunuz">Notunuz</string>
+</resources>
